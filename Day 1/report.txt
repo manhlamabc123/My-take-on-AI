@@ -1,0 +1,13 @@
+Today is the first day of this series.
+What I will be mostly write in these reports will be:
+- What I learned
+- Any problems I faced with
+- How I solved those problems
+- Need to think about more
+- What I will try to do or learn the next day
+
+What I learned Today:
+- Beginner Python because I forgot about them all due to lack of training
+
+What I will try to do or learn the next day:
+- I will do some projects to improve my Python skill, maybe 1 project, wew who know :)
