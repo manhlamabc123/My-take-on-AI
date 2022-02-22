@@ -108,3 +108,134 @@ for i in range(10): #range(start, stop, step), default range(0, stop, 1)
 print()
 for i in [1, 2, 5, 62, 5]: #list travel
     print(i, end = ' ')
+print()
+
+x = [3,4,42,4,1,3,5,1]
+### How to travel in list part 2
+for i in range(len(x)):
+    print(x[i], end = ' ')
+
+### How to travel in list part 3
+for i, element in enumerate(x):
+    print(i, element)
+
+## while
+i = 0
+while i < 10:
+    print('run')
+    i += 1
+    if i == 5:
+        print('5')
+        break
+
+# Slice Operator, use with all type of collection
+x = [0,1,2,3,4,6,5,7,9,8]
+y = ('hi', 'hello', 'goodbye', 'cya', 'sure')
+s = 'hello'
+sliced = x[:8:2] # [start:stop:step], not include [stop]
+# sliced = x[::-1] # how to reverse a list
+print(sliced)
+
+#Sets - no order unique set of element. Mean: no duplicate, don't keep track of order or frequency of elements
+#Use this to check if something is there or not there
+#Fast to use when delete or append
+x = set() #empty set
+s = {4,32,3,3} #dictionary
+s.add(5)
+s.remove(32)
+s2 = {6,1,3,5,6}
+print(s)
+print(32 in s)
+print(s.union(s2))
+
+#Dictionary - like Hash in other language
+x = {'key': 4}
+x['key2'] = 'hello' # How to add elements to Dictionary
+print(x['key'])
+print('key' in x)
+print(list(x.values()))
+print(list(x.keys()))
+
+## How to loop through Dic
+for key, value in x.items():
+    print(key, value)
+
+#Comprehensions
+x = [x for x in range(5)]
+x = tuple(0 for x in range(5))
+x = {x % 2 for x in range(5)}
+print(x)
+
+#Functions
+def func(x, y):
+    print('Run')
+    def func():
+        print("Run run")
+    func()
+    return x * y, x / y
+
+r1, r2 = func(4, 6)
+print(r1, r2)
+
+#Unpack Operator / *args and **kwargs
+def func(x):
+    def func2():
+        print(x)
+    return func2
+print(func(3)())
+x = func(3)
+x()
+
+x = [1,2,3,152,4,12] 
+print(*x) # Unpack
+
+def func(x, y):
+    print(x, y)
+pairs = [(1, 2), (3, 4)]
+for pair in pairs:
+    func(*pair) #*args use for list
+
+func(**{'y': 5, 'x': 2}) #**kwargs use for dictionary
+# key in this dic is the same as parameters in func
+
+def func(*args, **kwargs):
+    print(args, kwargs)
+
+func(1,2,3,4,5, one = 0, two = 1)
+
+# Scope & Global
+x = 'tim'
+def func(name):
+    global x # Use this as an global var
+    x = name
+
+print(x)
+func('changed')
+print(x)
+
+#Exceptions
+# raise Exception('Bad')
+
+#Handling Exceptions
+try:
+    x = 7 /0
+except Exception as e:
+    print(e)
+finally:
+    print('finally')
+
+#Lambda
+x = lambda x, y: x + y
+print(x(2, 3))
+
+#Map and Filter
+x = [1,2,3,6,2,3,457,2,4,5,74,634,56]
+map = map(lambda i: i + 2, x)
+print(list(map))
+
+map1 = filter(lambda i: i % 2 == 0, x)
+print(list(map1))
+
+# fstring
+x = f'hello {6 + 8}'
+print(x)
