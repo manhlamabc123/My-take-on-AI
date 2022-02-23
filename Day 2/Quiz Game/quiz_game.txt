@@ -1,0 +1,2 @@
+Give player about 10 questions. If they answer correct, give them a point.
+At the off the game, print out the score, or the percent.
