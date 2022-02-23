@@ -1,0 +1,1 @@
+User enters Rock(R), Paper(P), Scissors(S) then compare it to Comp which generate randomly.
