@@ -2,7 +2,9 @@ import random
 
 # random.randrange(start, stop) - does not include 10
 # random.randint(start, stop) - does include 10
-topRange = input('Start from: ')
+guessTime = 0
+
+topRange = input('From 0 to ? ')
 if topRange.isdigit():
     topRange = int(topRange)
     if topRange <= 0:
@@ -14,12 +16,19 @@ else:
 randomNumber = random.randint(0, topRange)
 
 while True:
-    userNumber = int(input('Your guess (from 0 to 10 only): '))
+    guessTime += 1
+    userNumber = input('Your guess: ')
+    if userNumber.isdigit():
+        userNumber = int(userNumber)
+        if userNumber < 0 or userNumber > topRange:
+            print('This number is not even in the range.')
     if userNumber == randomNumber:
         print('You guess it right!')
         print('Congratulation!!!')
-        quit()
+        break
     elif userNumber < randomNumber:
-        print('Higher')
+        print('Higher!')
     elif userNumber > randomNumber:
-        print('Lower')
+        print('Lower!')
+
+print(f'It took you {guessTime} to find the number.')
