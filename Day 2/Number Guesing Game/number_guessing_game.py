@@ -28,7 +28,7 @@ while True:
         break
     elif userNumber < randomNumber:
         print('Higher!')
-    elif userNumber > randomNumber:
+    else:
         print('Lower!')
 
 print(f'It took you {guessTime} to find the number.')
