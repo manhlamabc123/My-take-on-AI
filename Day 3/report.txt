@@ -1,0 +1,13 @@
+So today is the first day of Python Intermediate Level. And this will be the check list of what skill I need to learn.
+- Comprehension
+- Lambda
+- Collections Module
+- Map and Filter
+- *args and **kwargs
+- Inheritance
+- Advanced Class
+- Behavior
+- PIP
+- Environments
+- Module Creation
+- Async IO
