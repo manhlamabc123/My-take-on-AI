@@ -1,0 +1,25 @@
+So if you look at the time and date of this report, it will not match with actual date of Day 4.
+The reason for that it, I had a little bit of personal matter at the end of Day 4, I did not finish what I planned at the beginning of the day.
+So today is suppose to be Day 5, but sorry to you and myself, that we are on slow schedule.
+Except for a little bit miscalculation, everything is fine.
+
+So for Day 4's report.
+- I had finish django tutorial, the tutorial was not so hard, I understood most of it, there still some vague stuffs lying around here and there. But the next day (today), Day 5, I am going to start building my own projects.
+- Project I want to make:
+ + Club Management
+ + Personal Income and Outcome Management
+- What I learned in the django tutorial:
+ + Setup, Installation and Page Navigation
+ + SQLite3 DataBase Tutorial
+ + Admin Dashboard
+ + Templates & Custom HTML
+ + Simple Forms
+ + Custom Forms
+ + How to Add a Sidebar
+ + How to Add Bootstrap
+ + User Registration & Sign Up Page
+ + Login, Logout and User Authentication
+ + User Specific Pages/Access
+- Youtube link: https://www.youtube.com/watch?v=sm1mokevMWk
+
+That's it for today (yesterday).
