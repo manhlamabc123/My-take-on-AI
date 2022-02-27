@@ -1,8 +1,0 @@
-Today I am going to start working on one of those projects that I want to make. And that is Club Management Project.
-Before I start coding or programming or whatever you call it. I need to remind myself, may be you too, that this going to be quiet a journey. Because I am making this from scratch. That mean, before some coding can be written, I have to design the web, like backend and frontend.
-
-So again, if you look at the date of this report, you will find that I wrote this at the next day (Day 6). The reason for that is the day before (Day 5) was Saturday and I tend to do very few work at Saturday, and try to relax.
-Because of that, I only able to finish Day 4's work and try to come up with a design for my own project.
-So this will be the first day (Day 5) I found a problem that worth to note down, and that is: "I do not know how to make a client like request for a project".
-The more I note down what I want for a project, the more I find that I cannot turn my idea into words. That is a problem, like when you have the clear image in your mind but you can't draw that on paper.
-How to solve that problem, to be honest, I don't know yet, since I am just an armature IT guy, I don't have a lot of experience with a real project's client request. This can be solve with "Intern" but since I have no intention of going out of the house for now. I guest I have to try to note down my idea as best as I can.
