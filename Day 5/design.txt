@@ -1,0 +1,13 @@
+Club's Member Management
+
+This is a TCG Club, what we do here is playing 2 kind of TCG (Yu-Gi-Oh! and Cardfight! Vanguard) and 1 Pokemon (Pokemon Showdown). We also do event related to TCG.
+
+So we need a web to manage our member (Name, Birthday, School (we are all students of PDP High School but some of us have already graduated and move to College), Class (for people that are already graduated, this field is not be needed), Email, Phone).
+
+As an admin, I need to know what my member is playing, how often do they play this game or that game, how much they contribute to our small community (this group). 
+
+As a printer, I need to manage the incoming list of printing, price of each list, keep track of profit, keep track of deadline and when will the next list be printed.
+
+As an member, I want to know my ranking, my match's history, my win and lose in official match (during event and tournament), and of course my personal profile.
+
+Game (ID, Name), 3 TCG (Yu-Gi-Oh!, YGO! Master Duel and Cardfight! Vanguard) and 1 Pokemon Showdown. As an admin, I should be able to add Game, delete Game
