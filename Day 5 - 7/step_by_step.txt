@@ -1,0 +1,88 @@
+How to design a Program from Client's request (Text file. Ex: design.txt).
+
+Step 1:
+    Think about all the potential classes that I am going to have in my UML Class Diagram. And  the information that I need to track of in each class.
+
+Example of Step 1:
+    Potential classes:
+        Game
+        - ID: int
+        - Name: char
+
+        School:
+        - ID: char
+        - Name: char
+
+        Member
+        - ID: char
+        - Name: char
+        - Birthday: date
+        - Email: char
+        - Phone: char
+        - isRegular(): boolean
+        - Rank: int
+
+        Enrol:
+        - Member.ID
+        - School.ID
+        - Class: char
+
+        Event
+        - ID: char
+        - Name: char
+        - Game.ID
+        - Start: date
+        - End: date
+        - Description: char
+
+        Budget:
+        - Value: int (+ or -)
+        - Reason: char
+        - Date: date
+        
+        PrintingList
+        - ID: char
+        - Member.ID
+        - Deadline: date
+        - Description: char
+        - Price: float
+        - Profit: float
+
+        Product
+        - ID: char
+        - Name: char
+        - Price: int
+        - TradeFormat: char
+
+        MatchingHistory
+        - Member.ID1
+        - Member.ID2
+        - Game.ID
+        - Event.ID
+        - WinPlayer: int (1 or 2)
+        - Win: int
+        - Lose: int
+
+        TradingHistory
+        - Member.ID1
+        - Member.ID2
+        - Product.ID
+        - Product.ID.Price
+
+        Playing
+        - Member.ID
+        - Game.ID
+
+        Contribution
+        - Member.ID
+        - Contribution: char
+
+        Schedule
+        - Member.ID
+        - Day: int (2 to 8)
+        - PartOfDay: int (1: Morning, 2: Afternoon, 3: Late Evening)
+
+Step 2:
+    Draw UML Diagram
+
+Example of Step 2: https://drive.google.com/file/d/1rHW1sluP6QjNiefi8jxfMHphIXxZT2Bo/view?usp=sharing
