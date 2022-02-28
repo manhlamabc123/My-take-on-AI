@@ -16,3 +16,12 @@ Day 6
     All I did during Day 6 is finishing the basic design, I will not say that it is the best but an acceptable one.
 
     Once again sorry for the delay on Report.
+
+Day 7
+
+    So today I finished on creating Class Diagram from initial text design.
+    By side that, I created a workplace and connect it to MySQL.
+
+    Tomorrow, I need to know how to extract data from MySQL then print it out on the web.
+
+    That's it for today. Nothing much to say about.
