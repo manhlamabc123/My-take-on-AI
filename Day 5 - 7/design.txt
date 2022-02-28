@@ -4,7 +4,7 @@ This is a TCG Club, what we do here is playing 2 kind of TCG (Yu-Gi-Oh! and Card
 
 So we need a web to manage our member, printing card for TCG, schedule event like Tournament or Offline/Online event. Can also be a small trading site.
 
-As an admin, I need to know what my member is playing, how often do they play this game or that game, how much they contribute to our small community (this group). Manage this Club's money (Important!)
+As an admin, I need to know what my member is playing, are they a regular or not, how much they contribute to our small community (this group). Manage this Club's money (Important!)
 
 As a printer, I need to manage the incoming list of printing, price of each list, keep track of profit, keep track of deadline and when will the next list be printed.
 
