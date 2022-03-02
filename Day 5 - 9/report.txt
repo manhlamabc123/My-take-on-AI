@@ -25,3 +25,7 @@ Day 7
     Tomorrow, I need to know how to extract data from MySQL then print it out on the web.
 
     That's it for today. Nothing much to say about.
+
+Day 8 
+
+    I did not thing at all.
