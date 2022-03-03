@@ -9,3 +9,9 @@ def home(response):
 def profile(response):
     user = response.user
     return render(response, "main/profile.html", {"user": user})
+
+def edit_profile(response):
+    return render(response, "main/edit_profile.html", {})
+
+def change_password(response):
+    return render(response, "main/change_password.html", {})
