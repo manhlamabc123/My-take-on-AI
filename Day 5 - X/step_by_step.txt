@@ -22,27 +22,27 @@ Example of Step 1:
         - isRegular(): boolean
         - Rank: int
 
-        Enrol:
-        - Member.ID
-        - School.ID
+        Enrol
+        - Member_ID
+        - School_ID
         - Class: char
 
         Event
         - ID: char
         - Name: char
-        - Game.ID
+        - Game_ID
         - Start: date
         - End: date
         - Description: char
 
-        Budget:
+        Budget
         - Value: int (+ or -)
         - Reason: char
         - Date: date
         
         PrintingList
         - ID: char
-        - Member.ID
+        - Member_ID
         - Deadline: date
         - Description: char
         - Price: float
@@ -50,39 +50,40 @@ Example of Step 1:
 
         Product
         - ID: char
+        - Member_ID
         - Name: char
         - Price: int
         - TradeFormat: char
 
         MatchingHistory
-        - Member.ID1
-        - Member.ID2
-        - Game.ID
-        - Event.ID
+        - Member_ID1
+        - Member_ID2
+        - Game_ID
+        - Event_ID
         - WinPlayer: int (1 or 2)
         - Win: int
         - Lose: int
 
         TradingHistory
-        - Member.ID1
-        - Member.ID2
-        - Product.ID
-        - Product.ID.Price
+        - Member_ID1
+        - Member_ID2
+        - Product_ID
+        - Price
 
         Playing
-        - Member.ID
-        - Game.ID
+        - Member_ID
+        - Game_ID
 
         Contribution
-        - Member.ID
+        - Member_ID
         - Contribution: char
 
         Schedule
-        - Member.ID
+        - Member_ID
         - Day: int (2 to 8)
         - PartOfDay: int (1: Morning, 2: Afternoon, 3: Late Evening)
 
 Step 2:
-    Draw UML Diagram
+    Draw ER Diagram
 
 Example of Step 2: https://drive.google.com/file/d/1rHW1sluP6QjNiefi8jxfMHphIXxZT2Bo/view?usp=sharing
