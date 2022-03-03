@@ -53,3 +53,10 @@ Day 10
     - Able to email validate but did not return it, instead go straight to home page without error return
 
     I will try to design all the pages first, I hope that will go well for now. 
+
+    21:39
+    So I did not design all the pages that needed. But I did design what a Personal Page needed.
+    I did solve the problem of adding new field to User Table. The other one haven't been solved yet.
+    But the new problem I have in hand is: How to edit a profile. Like changing school and name, all kind of stuff.
+    
+    I think that this should be it for today. I cannot concentrate anymore to think of a solution.
