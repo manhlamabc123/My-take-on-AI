@@ -12,8 +12,5 @@ def profile(response):
     member = Member.objects.get(user_id = user.id)
     return render(response, "main/profile.html", {"user": user, "member": member})
 
-def edit_profile(response):
-    return render(response, "main/edit_profile.html", {})
-
-def change_password(response):
-    return render(response, "main/change_password.html", {})
+def blank(response):
+    return render(response, "main/blank.html", {})
