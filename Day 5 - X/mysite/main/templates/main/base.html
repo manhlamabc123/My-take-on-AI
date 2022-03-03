@@ -46,16 +46,21 @@
     </head>
     <body>
         <div class="sidenav">
+            <a href="/home">Home</a>
             {% block sidenav %}
-                <a href="/home">Home</a>
-                <a href="/login">Login</a>
+                {% if not user.is_authenticated %}
+                    <a href="/login">Login</a>
+                    <a href="/register">Register</a>
+                {% else %}
+                    <a href="/profile">Profile</a>
+                {% endif %}
             {% endblock %}
         </div>
         
         <div id="content" name="content" class="main">
             <div class="row justify-content-center">
                 <div class="col-8">
-                    <h1 class="mt-2">TCG PĐP's Page</h1>
+                    <h1 class="mt-2">{% block page_title %}TCG PĐP's Page{% endblock %}</h1>
                     <hr class="mt-0 mb-4">
                     {% block content %}
                     {% endblock %}

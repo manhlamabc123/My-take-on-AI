@@ -6,6 +6,10 @@ Login
 
 {% load crispy_forms_tags %}
 
+{% block page_title %}
+	Login
+{% endblock %}
+
 {% block content %}
     <form method="post" class="from-group">
 	    {% csrf_token %}

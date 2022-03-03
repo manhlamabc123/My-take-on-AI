@@ -8,7 +8,7 @@ def register(response):
         if form.is_valid():
             form.save()
         
-        return redirect("/profile")
+        return redirect("/login")
     else:
         form = RegisterForm()
 
