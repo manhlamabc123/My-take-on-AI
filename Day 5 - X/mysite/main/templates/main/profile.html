@@ -1,0 +1,17 @@
+{% extends "main/base.html" %} 
+
+{% block title %}
+    Your Profile
+{% endblock %}
+
+{% block content %}
+    {% if user.is_authenticated  %}
+        <ul>
+            <li>Username: {{ user }}</li>
+            <li>Email: {{ user.email }}</li>
+            <li>Phone: {{ user.phone_number }}</li>
+        </ul>
+    {% else %}
+        <p>You are not login yet. Please, <a href="/login">Login</a></p>
+    {% endif %}
+{% endblock %}

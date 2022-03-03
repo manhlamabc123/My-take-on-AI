@@ -45,3 +45,9 @@ Day 9
     I think I will look into how to create a personal page.
 
     So that it for today. 
+
+Day 10
+
+    The problem I encountered today was "I have yet found a way to add a new field to User Table". I found some solutions online but it still not what I want so I will leave it there for now.
+
+    I will try to design all the pages first, I hope that will go well for now. 
