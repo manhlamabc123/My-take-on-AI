@@ -60,3 +60,8 @@ Day 10
     But the new problem I have in hand is: How to edit a profile. Like changing school and name, all kind of stuff.
     
     I think that this should be it for today. I cannot concentrate anymore to think of a solution.
+
+Day 11
+
+    I found a way to check if an input field is invalid, but have not yet to implement it.
+    Wew, let's just say I didn't do any code to day, but instead of that, I found way to solve my problems.
