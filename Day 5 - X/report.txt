@@ -69,3 +69,5 @@ Day 11
 Day 12 (05/03/2022) Nothing new.
 
 Day 13 (06/02/2022)
+
+    I only worked from 9:00PM to 11:00Pm today. I try to solve the "Data Validation of Register" but right now, I still don't know why all my attempts are not working. Well, I did able to catch "key up" while typing, a small step for today I see.
