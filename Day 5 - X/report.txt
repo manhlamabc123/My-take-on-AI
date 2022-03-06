@@ -65,3 +65,7 @@ Day 11
 
     I found a way to check if an input field is invalid, but have not yet to implement it.
     Wew, let's just say I didn't do any code to day, but instead of that, I found way to solve my problems.
+
+Day 12 (05/03/2022) Nothing new.
+
+Day 13 (06/02/2022)
