@@ -1,30 +1,46 @@
 from django import forms
-from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
-from django.core.validators import RegexValidator
-from django.core.validators import EmailValidator
-from main.models import Member
+from datetime import datetime
+from crispy_forms.helper import FormHelper
+from crispy_forms.layout import Submit
+from django.urls import reverse_lazy
+from main.models import User
 
-
-class UserForm(UserCreationForm):
-    email_regex = EmailValidator()
-    email = forms.EmailField(validators=[email_regex])
+class UserForm(forms.ModelForm):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.helper = FormHelper(self)
+        self.helper.form_id = 'user-form'
+        self.helper.attrs = {
+            "hx-post": reverse_lazy("register"),
+            "hx-target": "#user-form",
+            "hx-swap": "outerHTML"
+        }
+        self.helper.add_input(Submit('submit', 'Register'))
 
     class Meta:
         model = User
-        fields = ["username", "first_name", "last_name", "email", "password1", "password2"]
-
-
-class DateInput(forms.DateInput):
-    input_type = 'date'
-
-class MemberForm(forms.ModelForm):
-    phone_regex = RegexValidator(regex=r'^\+?1?\d{9,15}$', message="Phone number must be entered in the format: '+999999999'. Up to 15 digits allowed.")
-    phone_number = forms.CharField(validators=[phone_regex])
-
-    class Meta:
-        model = Member
-        fields = ['birthday', 'phone_number']
+        fields = ["username", "first_name", "last_name", "birthday", "phone_number", "email", "password"]
         widgets = {
-            'birthday': DateInput(attrs={'type': 'date'}),
+            "password": forms.PasswordInput(),
+            # "username": forms.TextInput(
+            #     attrs={
+            #         "hx-get": reverse_lazy("register"),
+            #         "hx-trigger": "keyup"
+            #     }
+            # ),
+            "birthday": forms.DateInput(attrs={'type': 'date', 'max': datetime.now().date()}),
         }
+
+    def clean_username(self):
+        username = self.cleaned_data["username"]
+        if len(username) <= 3:
+            raise forms.ValidationError("Username is too short")
+        return username
+
+    def save(self, commit = True):
+        user = super().save(commit=False)
+        user.set_password(self.cleaned_data['password'])
+        if commit:
+            user.save()
+        return user

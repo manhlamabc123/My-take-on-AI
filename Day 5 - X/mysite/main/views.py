@@ -1,7 +1,4 @@
-from django.http import HttpResponse
 from django.shortcuts import render
-from django.http import HttpResponse
-from .models import Member
 
 # Create your views here.
 def home(response):
@@ -9,8 +6,7 @@ def home(response):
 
 def profile(response):
     user = response.user
-    member = Member.objects.get(user_id = user.id)
-    return render(response, "main/profile.html", {"user": user, "member": member})
+    return render(response, "main/profile.html", {"user": user})
 
 def blank(response):
     return render(response, "main/blank.html", {})

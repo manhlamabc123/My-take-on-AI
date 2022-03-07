@@ -8,10 +8,5 @@
 {% endblock %}
 
 {% block content %}
-    <form method="POST" class="form-group">
-	{% csrf_token %}
-	{{ user_form|crispy }}
-	{{ member_form|crispy }}
-	<button type="submit" class="btn btn-success">Register</button>
-    </form>
+    {% crispy user_form %}
 {% endblock %}

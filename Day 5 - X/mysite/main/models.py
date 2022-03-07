@@ -1,37 +1,32 @@
-from urllib.parse import MAX_CACHE_SIZE
 from django.db import models
-from django.contrib.auth.models import User
+from django.contrib.auth.models import AbstractUser
 
 # Create your models here.
-class Game(models.Model):
-    id = models.IntegerField(primary_key=True)
-    name = models.CharField(max_length=100)
-    
-    def __str__(self):
-        return self.name
-
-class Member(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
+class User(AbstractUser):
     birthday = models.DateField()
     phone_number = models.CharField(max_length=10)
     regular = models.BooleanField(null=True)
-    rank = models.IntegerField(null=True)
+    rank = models.PositiveSmallIntegerField(null=True)
 
-    def is_regular():
-        pass
+# class Game(models.Model):
+#     id = models.IntegerField(primary_key=True)
+#     name = models.CharField(max_length=100)
+    
+#     def __str__(self):
+#         return self.name
 
-class School(models.Model):
-    id = models.IntegerField(primary_key=True)
-    name = models.CharField(max_length=100)
+# class School(models.Model):
+#     id = models.IntegerField(primary_key=True)
+#     name = models.CharField(max_length=100)
 
-    def __str__(self):
-        return self.name
+#     def __str__(self):
+#         return self.name
 
-class Playing(models.Model):
-    member_id = models.ForeignKey(Member, on_delete=models.CASCADE)
-    game_id = models.ForeignKey(Game, on_delete=models.CASCADE)
+# class Playing(models.Model):
+#     member_id = models.ForeignKey(Member, on_delete=models.CASCADE)
+#     game_id = models.ForeignKey(Game, on_delete=models.CASCADE)
 
-class Enrol(models.Model):
-    member_id = models.ForeignKey(Member, on_delete=models.CASCADE)
-    school_id = models.ForeignKey(School, on_delete=models.CASCADE)
-    school_class = models.CharField(max_length=5, null=True)
+# class Enrol(models.Model):
+#     member_id = models.ForeignKey(Member, on_delete=models.CASCADE)
+#     school_id = models.ForeignKey(School, on_delete=models.CASCADE)
+#     school_class = models.CharField(max_length=5, null=True)
