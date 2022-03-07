@@ -3,8 +3,8 @@ from django.contrib.auth.models import AbstractUser
 
 # Create your models here.
 class User(AbstractUser):
-    birthday = models.DateField()
-    phone_number = models.CharField(max_length=10)
+    birthday = models.DateField(null=True)
+    phone_number = models.CharField(max_length=10, null=True)
     regular = models.BooleanField(null=True)
     rank = models.PositiveSmallIntegerField(null=True)
 
