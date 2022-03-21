@@ -68,7 +68,7 @@ Day 11
 
 Day 12 (05/03/2022) Nothing new.
 
-Day 13 (06/02/2022)
+Day 13 (06/03/2022)
 
     I only worked from 9:00PM to 11:00Pm today. I try to solve the "Data Validation of Register" but right now, I still don't know why all my attempts are not working. Well, I did able to catch "key up" while typing, a small step for today I see.
 
@@ -76,3 +76,11 @@ Day 14
 
     5:55 PM
     I am finally able to print out error if there are errors in the register's form, took me five days, to reach to this point.
+
+Day 28 (21/03/2022)
+
+    I had been away for 2 week because I was working on other project which is this: https://github.com/manhlamabc123/Life-Management-Project. This is a To-do list web, I and my friend (Truong Minh Hong, shout out to him) made it. The project is not done yet but will be in next couple of days (I hope) then we will launch it on Heroku.
+
+    And with that, I'm gonna close this chapter of practising Python.
+
+    Move on to the next chapter which is Pandas.
