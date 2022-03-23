@@ -1,0 +1,3 @@
+Day 28 (21/03/2022): Start learning Pandas
+
+Day 29 (22/03/2022): Finishing on To-do List web Project
