@@ -1,0 +1,5 @@
+Day 28 (21/03/2022): Start learning Pandas
+
+Day 29 (22/03/2022): Finishing on To-do List web Project
+
+Day 30: Learned Pandas (Python's Library). Move on to Kaggle.com
