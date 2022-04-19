@@ -1,0 +1,4 @@
+The last thing I do before the new semester start was Programming a Website using Python.
+After that, I started to learn Machine Learning till today.
+Nothing much to say, I followed Andrew Ng on Coursera, there are some difficulty but still, the course was very easy to comprehend.
+Everything I learned so far is in Documents folder.
