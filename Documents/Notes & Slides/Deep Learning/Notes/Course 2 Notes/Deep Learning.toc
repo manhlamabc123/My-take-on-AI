@@ -1,0 +1,36 @@
+\contentsline {chapter}{\numberline {1}Practical Aspects of Deep Learning}{2}{}%
+\contentsline {section}{\numberline {1.1}Deep $L$ - Layer Neural Network}{2}{}%
+\contentsline {subsection}{\numberline {1.1.1}Notation}{2}{}%
+\contentsline {subsection}{\numberline {1.1.2}Chiều của các Ma trận}{2}{}%
+\contentsline {section}{\numberline {1.2}Setting up your Machine Learning Application}{2}{}%
+\contentsline {subsection}{\numberline {1.2.1}Train/Dev/Test sets}{2}{}%
+\contentsline {subsection}{\numberline {1.2.2}Bias/Variance}{2}{}%
+\contentsline {subsection}{\numberline {1.2.3}Basic Recipe for Machine Learning (“Công thức cơ bản” để xử lý High Bias với High Variance)}{2}{}%
+\contentsline {section}{\numberline {1.3}Regularizing your Neural Network}{2}{}%
+\contentsline {subsection}{\numberline {1.3.1}Regularization}{2}{}%
+\contentsline {subsection}{\numberline {1.3.2}Cách Regularization giảm Overfitting}{2}{}%
+\contentsline {subsection}{\numberline {1.3.3}Dropout Regularization}{2}{}%
+\contentsline {subsection}{\numberline {1.3.4}Một số cách để giảm Overfitting khác}{2}{}%
+\contentsline {section}{\numberline {1.4}Setting up your Optimization Problem}{2}{}%
+\contentsline {chapter}{\numberline {2}Optimization Algorithms}{3}{}%
+\contentsline {section}{\numberline {2.1}Mini-batch Gradient Descent}{3}{}%
+\contentsline {section}{\numberline {2.2}Exponentially weighted averages}{3}{}%
+\contentsline {section}{\numberline {2.3}Gradient Descent with Momentum}{4}{}%
+\contentsline {section}{\numberline {2.4}RMSprop}{4}{}%
+\contentsline {section}{\numberline {2.5}Adam Optimization Algorithm}{5}{}%
+\contentsline {section}{\numberline {2.6}Learning Rate Decay}{5}{}%
+\contentsline {section}{\numberline {2.7}The Problem of Local Optima}{6}{}%
+\contentsline {chapter}{\numberline {3}Hyperparameter Tuning, Batch Normalization and Programming Frameworks}{8}{}%
+\contentsline {section}{\numberline {3.1}Hyperparameter Tuning}{8}{}%
+\contentsline {subsection}{\numberline {3.1.1}Tuning Process}{8}{}%
+\contentsline {subsection}{\numberline {3.1.2}Using an Appropriate Scale to pick Hyperparameters}{9}{}%
+\contentsline {subsection}{\numberline {3.1.3}Hyperparameters Tuning in Practice: Pandas vs. Caviar}{9}{}%
+\contentsline {section}{\numberline {3.2}Batch Normalization}{10}{}%
+\contentsline {subsection}{\numberline {3.2.1}Normalizing Activations in a Network}{10}{}%
+\contentsline {subsection}{\numberline {3.2.2}Fitting Batch Norm into Neural Network}{10}{}%
+\contentsline {subsection}{\numberline {3.2.3}Why does Batch Norm work?}{11}{}%
+\contentsline {subsection}{\numberline {3.2.4}Batch Norm at Test Time}{11}{}%
+\contentsline {section}{\numberline {3.3}Multi-class Classification}{11}{}%
+\contentsline {subsection}{\numberline {3.3.1}Multi-class Classification}{11}{}%
+\contentsline {subsection}{\numberline {3.3.2}Softmax Regression}{12}{}%
+\contentsline {subsection}{\numberline {3.3.3}Train a Softmax Classifier}{12}{}%

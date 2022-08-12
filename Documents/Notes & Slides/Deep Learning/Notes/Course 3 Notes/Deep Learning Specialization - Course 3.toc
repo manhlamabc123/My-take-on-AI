@@ -1,0 +1,29 @@
+\contentsline {chapter}{\numberline {1}Introduction to Machine Learning Strategy}{2}{}%
+\contentsline {section}{\numberline {1.1}Why Machine Learing Strategy}{2}{}%
+\contentsline {section}{\numberline {1.2}Orthogonalization}{2}{}%
+\contentsline {chapter}{\numberline {2}Setting Up your Goal}{3}{}%
+\contentsline {section}{\numberline {2.1}Single Number Evaluation Metric}{3}{}%
+\contentsline {section}{\numberline {2.2}Satisficing and Optimizing Metric}{4}{}%
+\contentsline {section}{\numberline {2.3}Train/Dev/Test Distributions}{4}{}%
+\contentsline {section}{\numberline {2.4}Size of the Dev and Test Sets}{5}{}%
+\contentsline {section}{\numberline {2.5}When to Change Dev/Test Sets and Metrics?}{5}{}%
+\contentsline {chapter}{\numberline {3}Comparing to Human-level Performance}{6}{}%
+\contentsline {section}{\numberline {3.1}Why Human-level Performance?}{6}{}%
+\contentsline {section}{\numberline {3.2}Avoidable Bias}{7}{}%
+\contentsline {section}{\numberline {3.3}Understanding Human-level Performance}{7}{}%
+\contentsline {section}{\numberline {3.4}Surpassing Human-level Performance}{8}{}%
+\contentsline {section}{\numberline {3.5}Improving your Model Performance}{8}{}%
+\contentsline {chapter}{\numberline {4}Error Analysis}{9}{}%
+\contentsline {section}{\numberline {4.1}Carrying Out Error Analysis}{9}{}%
+\contentsline {section}{\numberline {4.2}Cleaning Up Incorrectly Labeled Data}{9}{}%
+\contentsline {section}{\numberline {4.3}Build your First System Quickly, then Iterate}{10}{}%
+\contentsline {chapter}{\numberline {5}Mismatched Traing and Dev/Test Set}{11}{}%
+\contentsline {section}{\numberline {5.1}Training and Testing on Different Distributions}{11}{}%
+\contentsline {section}{\numberline {5.2}Bias and Variance with Mismatched Data Distributions}{11}{}%
+\contentsline {section}{\numberline {5.3}Addressing Data Mismatch}{11}{}%
+\contentsline {chapter}{\numberline {6}Learning from Multiple Tasks}{12}{}%
+\contentsline {section}{\numberline {6.1}Transfer Learning}{12}{}%
+\contentsline {section}{\numberline {6.2}Multi-task Learing}{12}{}%
+\contentsline {chapter}{\numberline {7}End-to-end Deep Learning}{13}{}%
+\contentsline {section}{\numberline {7.1}What is End-to-end Deep Learning?}{13}{}%
+\contentsline {section}{\numberline {7.2}Whether to use End-to-end Deep Learning}{13}{}%
