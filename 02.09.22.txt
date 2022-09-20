@@ -1,0 +1,6 @@
+I am surpose to write this report 2 days ago (31.08.22) but to be honest... I forgot about it.
+So why 31.08? Because that was the day I finished Course 4 - Convolutional Neural Network in Deep Learning Specialization Course on Coursera.
+Which mean, I will stop grinding those courses, just like how a SE stop learning beginner tutorials.
+From now on, I will start doing as many projects as posible.
+My work will be upload to my github page.
+And that will be the end of this "My take on AI". I shall not update this any further.
