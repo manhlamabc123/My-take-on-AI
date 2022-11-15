@@ -8,3 +8,5 @@ There are reports which I wrote for the purpose of keep tracking of what I did a
 02/09/2022: There will be no further update.
 
 20/09/2022: Continue to update
+
+28/09/2022: Finish Coursera's Deep Learning Specialization
